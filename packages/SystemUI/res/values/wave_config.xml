@@ -41,4 +41,7 @@
     <!-- Whether to invert the sim slots for VoLTE/VoWiFi icon -->
     <bool name="config_invertImsSlots">false</bool>
 
+    <!-- Asus stitch editor component name -->
+    <string name="config_stitchEditor">com.asus.stitchimage/com.asus.stitchimage.editor.ScreenshotEditorActivity</string>
+
 </resources>
