@@ -22,4 +22,6 @@
     <color name="dismiss_all_background_color_ripple">#555555</color>
     <color name="dismiss_all_icon_color">@android:color/white</color>
 
+    <color name="quick_settings_header_info_bg">#33ffffff</color>
+
 </resources>
