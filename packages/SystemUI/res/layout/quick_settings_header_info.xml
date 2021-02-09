@@ -40,9 +40,9 @@
             android:gravity="center_vertical"
             android:layoutDirection="locale"
             android:paddingStart="8dp"
-            android:paddingTop="4dp"
+            android:paddingTop="2dp"
             android:paddingEnd="8dp"
-            android:paddingBottom="4dp">
+            android:paddingBottom="2dp">
 
             <ImageView
                 android:id="@+id/next_alarm_icon"
@@ -83,9 +83,9 @@
             android:gravity="center_vertical"
             android:layoutDirection="locale"
             android:paddingStart="8dp"
-            android:paddingTop="4dp"
+            android:paddingTop="2dp"
             android:paddingEnd="8dp"
-            android:paddingBottom="4dp">
+            android:paddingBottom="2dp">
 
             <ImageView
                 android:id="@+id/ringer_mode_icon"
@@ -111,11 +111,15 @@
     <include
         android:id="@+id/carrier_group"
         layout="@layout/qs_carrier_group"
+        android:background="@drawable/quick_settings_header_info_bg"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="end|center_vertical"
         android:layout_marginStart="@dimen/qs_status_separator"
         android:focusable="false"
-        android:visibility="gone" />
+        android:paddingStart="8dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="2dp" />
 
 </LinearLayout>
