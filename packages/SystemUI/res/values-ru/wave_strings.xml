@@ -50,7 +50,7 @@
     <string name="scrollss">Прокрутка</string>
 
     <!-- Data usage info -->
-    <string name="usage_data">использовал</string>
+    <string name="usage_data">использовано</string>
 
     <!-- Screenrecorder -->
     <string name="screenrecord_stopdot_label">Показывать кнопку остановки\nУдерживайте для перемещения</string>
