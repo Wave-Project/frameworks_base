@@ -67,7 +67,7 @@
     <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
     <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления отключены.</string>
     <string name="accessibility_quick_settings_heads_up_on">ВВсплывающие уведомления включены.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены..</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены.</string>
     <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены.</string>
 
     <!-- USB tethering QS tile -->
@@ -88,7 +88,7 @@
     <string name="quick_settings_reboot_recovery_label">Рекавери</string>
 
     <!-- Headphones Buddy -->
-    <string name="hp_buddy">Баланс звука в наушникахy</string>
+    <string name="hp_buddy">Баланс звука в наушниках</string>
     <string name="hp_buddy_left">Левый канал</string>
     <string name="hp_buddy_right">Правый канал</string>
     <string name="hp_buddy_center">Оба канала</string>
