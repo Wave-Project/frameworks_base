@@ -92,7 +92,7 @@
     <string name="hp_buddy_left">Esquero apenas</string>
     <string name="hp_buddy_right">Direito apenas</string>
     <string name="hp_buddy_center">Ambos</string>
-    <string name="hp_buddy_not_connected">Conecte seus fones do ouvido</string>
+    <string name="hp_buddy_not_connected">Conecte seus fones de ouvido</string>
 
     <!-- Name of the VPN status bar icon. -->
     <string name="status_bar_vpn">VPN</string>
