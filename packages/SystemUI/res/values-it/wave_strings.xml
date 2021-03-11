@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Wave-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Caffeina</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeina Off</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeina On</string>
+
+    <!-- Power Menu -->
+    <string name="global_action_reboot">Riavvia</string>
+    <string name="global_action_reboot_more">Riavvia\u2026</string>
+    <string name="global_action_reboot_sub">Sistema</string>
+    <string name="global_action_reboot_recovery">Recovery</string>
+    <string name="global_action_reboot_bootloader">Bootloader</string>
+    <string name="global_action_settings">Impostazioni</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Scegli SIM per dati mobili</string>
+    <string name="qs_data_switch_toast_0">Al momento non è inserita alcuna scheda SIM</string>
+    <string name="qs_data_switch_toast_1">Attualmente è inserita solo una scheda SIM</string>
+    <string name="qs_data_switch_changed_1">Cambio scheda dati alla SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Cambio scheda dati alla SIM 2.</string>
+
+    <!-- Reading mode tile -->
+    <string name="quick_settings_reading_mode">Modalità lettura</string>
+
+    <!-- Name of the volte/vowifi status bar icon. -->
+    <string name="status_bar_ims">VoLTE/VoWiFi</string>
+
+    <!-- Title of statusbar tuner -->
+    <string name="status_bar_icons">Icone della barra di stato</string>
+
+    <!-- Scrolling Screenshot string -->
+    <string name="scrollss">Scrolla</string>
+
+    <!-- Data usage info -->
+    <string name="usage_data">usati</string>
+
+    <!-- Screenrecorder -->
+    <string name="screenrecord_stopdot_label">Mostra il punto di fine registrazione\nPremi a lungo per spostarlo</string>
+    <string name="screenrecord_lowquality_label">Abbassa la qualità per rendere il file più piccolo</string>
+
+    <!-- Name of the camera status bar icon. -->
+    <string name="status_bar_camera">Fotocamera</string>
+    <!-- Name of the location status bar icon. -->
+    <string name="status_bar_location">Geolocalizzazione</string>
+    <!-- Name of the microphone status bar icon. -->
+    <string name="status_bar_microphone">Microfono</string>
+
+    <!-- Heads Up QS Tile -->
+    <string name="quick_settings_heads_up_label">Notifiche in anteprima</string>
+    <string name="accessibility_quick_settings_heads_up_off">Notifiche in anteprima disabilitate.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Notifiche in anteprima abilitate.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Notifiche in anteprima disabilitate.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Notifiche in anteprima abilitate.</string>
+
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">USB tethering</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">Screenshot</string>
+    <string name="quick_settings_region_screenshot_label">Screenshot parziale</string>
+
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Souno</string>
+    <string name="quick_settings_sound_ring">Squilla</string>
+    <string name="quick_settings_sound_vibrate">Vibra</string>
+    <string name="quick_settings_sound_mute">Muto</string>
+
+    <!-- Reboot/Recovery QS tile -->
+    <string name="quick_settings_reboot_label">Riavvio</string>
+    <string name="quick_settings_reboot_recovery_label">Recovery</string>
+
+    <!-- Headphones Buddy -->
+    <string name="hp_buddy">Bilanciamento audio cuffie</string>
+    <string name="hp_buddy_left">Canale sinistro</string>
+    <string name="hp_buddy_right">Canale destro</string>
+    <string name="hp_buddy_center">Entrambi canali</string>
+    <string name="hp_buddy_not_connected">Collega le cuffie</string>
+
+    <!-- Name of the VPN status bar icon. -->
+    <string name="status_bar_vpn">VPN</string>
+
+</resources>
