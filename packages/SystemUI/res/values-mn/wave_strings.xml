@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Wave-OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Кофеин</string>
+    <string name="accessibility_quick_settings_caffeine_off">Кофеин унтраалттай</string>
+    <string name="accessibility_quick_settings_caffeine_on">Кофеин асаалттай</string>
+
+    <!-- Power Menu -->
+    <string name="global_action_reboot">Дахин ачаалах</string>
+    <string name="global_action_reboot_more">Дахин ачаалах\u2026</string>
+    <string name="global_action_reboot_sub">Системийг дахин ачааллах</string>
+    <string name="global_action_reboot_recovery">Утас сэргээх</string>
+    <string name="global_action_reboot_bootloader">Ачаалагч</string>
+    <string name="global_action_settings">Тохиргоо</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Сим солих</string>
+    <string name="qs_data_switch_toast_0">Утас дотор сим байхгүй байна</string>
+    <string name="qs_data_switch_toast_1">Утас дотор зөвхөн 1 сим байна</string>
+    <string name="qs_data_switch_changed_1">1-р сим рүү солигдлоо.</string>
+    <string name="qs_data_switch_changed_2">2-р сим рүү солигдлоо.</string>
+
+    <!-- Reading mode tile -->
+    <string name="quick_settings_reading_mode">Унших моди</string>
+
+    <!-- Name of the volte/vowifi status bar icon. -->
+    <string name="status_bar_ims">VoLTE/VoWiFi</string>
+
+    <!-- Title of statusbar tuner -->
+    <string name="status_bar_icons">Статусын мөрний дүрс</string>
+
+    <!-- Scrolling Screenshot string -->
+    <string name="scrollss">Гүйлгэх</string>
+
+    <!-- Data usage info -->
+    <string name="usage_data">Дата хэрэглээ</string>
+
+    <!-- Screenrecorder -->
+    <string name="screenrecord_stopdot_label">Бичлэгийн төгсгөлийн цэгийг харуулах / Зөөхийн тулд удаан дарна ууo</string>
+    <string name="screenrecord_lowquality_label">Файлыг жижигрүүлэхийн тулд чанарыг нь бууруулна</string>
+
+    <!-- Name of the camera status bar icon. -->
+    <string name="status_bar_camera">Камера</string>
+    <!-- Name of the location status bar icon. -->
+    <string name="status_bar_location">Байрлал</string>
+    <!-- Name of the microphone status bar icon. -->
+    <string name="status_bar_microphone">Микрофоно</string>
+
+    <!-- Heads Up QS Tile -->
+    <string name="quick_settings_heads_up_label">Зөвхөн чухал зүйлийг мэдэгдэх</string>
+    <string name="accessibility_quick_settings_heads_up_off">Урьдчилан харах мэдэгдлийг идэвхгүй болгосон.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Урьдчилан харах мэдэгдлийг идэвхтэй болгосон.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Урьдчилан харах мэдэгдлийг идэвхгүй болгосон.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Урьдчилан харах мэдэгдлийг идэвхтэй болгосон.</string>
+
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">USB-аар цацах</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">Дэлгэцийн зураг</string>
+    <string name="quick_settings_region_screenshot_label">Хэсэгчилсэн дэлгэцийн зураг</string>
+
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Дуу</string>
+    <string name="quick_settings_sound_ring">Дуудлага</string>
+    <string name="quick_settings_sound_vibrate">Дуу чичрэх</string>
+    <string name="quick_settings_sound_mute">Дууг хаах</string>
+
+    <!-- Reboot/Recovery QS tile -->
+    <string name="quick_settings_reboot_label">Дахин ачаалах</string>
+    <string name="quick_settings_reboot_recovery_label">Утас сэргээх</string>
+
+    <!-- Headphones Buddy -->
+    <string name="hp_buddy">Чихэвчний аудио үлдэгдэл</string>
+    <string name="hp_buddy_left">Зүүн суваг</string>
+    <string name="hp_buddy_right">Баруун суваг</string>
+    <string name="hp_buddy_center">Хоёр суваг</string>
+    <string name="hp_buddy_not_connected">Чихэвчээ залгаарай</string>
+
+    <!-- Name of the VPN status bar icon. -->
+    <string name="status_bar_vpn">VPN</string>
+
+    <!-- App Lock -->
+    <string name="applock_locked">&#160;è хаагдсан байна</string>
+    <string name="applock_fingerprint_face">, түгжээг тайлахын тулд хурууны хээ эсвэл нүүрээ уншуулна уу</string>
+    <string name="applock_face">&#160;эсвэл та нүүрээрээ онгойлго</string>
+    <string name="applock_fingerprint">&#160;эсвэл хурууны хээгээр түгжээг тайлна уу</string>
+    <string name="applock_credential">&#160;онгойлгох</string>
+    <string name="applock_unlock">Түгжээг тайлахын тулд</string>
+
+</resources>
