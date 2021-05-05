@@ -51,10 +51,12 @@
 
     <!-- Data usage info -->
     <string name="usage_data">использовано</string>
+    <string name="usage_wifi_prefix">Wi-Fi</string>
+    <string name="usage_data_prefix">Мобильная сеть</string>
 
     <!-- Screenrecorder -->
     <string name="screenrecord_stopdot_label">Показывать кнопку остановки\nУдерживайте для перемещения</string>
-    <string name="screenrecord_lowquality_label">Низкое качество для меньшего ращмера файла</string>
+    <string name="screenrecord_lowquality_label">Низкое качество для меньшего размера файла</string>
 
     <!-- Name of the camera status bar icon. -->
     <string name="status_bar_camera">Камера</string>
@@ -79,8 +81,8 @@
 
     <!-- Sound QS Tile -->
     <string name="quick_settings_sound_label">Звук</string>
-    <string name="quick_settings_sound_ring">Рингтон</string>
-    <string name="quick_settings_sound_vibrate">Только вибрация</string>
+    <string name="quick_settings_sound_ring">Звонок</string>
+    <string name="quick_settings_sound_vibrate">Вибрация</string>
     <string name="quick_settings_sound_mute">Не беспокоить</string>
 
     <!-- Reboot/Recovery QS tile -->
@@ -96,5 +98,20 @@
 
     <!-- Name of the VPN status bar icon. -->
     <string name="status_bar_vpn">VPN</string>
+     
+     <!-- Partial screenshot -->
+    <string name="global_screenshot_selector_capture_description">Частичный снимок экрана</string>
+    <string name="global_screenshot_selector_cancel_description">Отменить частичный снимок экрана</string>
+
+    <!-- Screenshot Delete Toast -->
+    <string name="delete_screenshot_toast">Снимок экрана удален</string>
+
+    <!-- App Lock -->
+    <string name="applock_locked">&#160;заблокирован(о)</string>
+    <string name="applock_fingerprint_face">, отпечаток пальца или лицо для разблокировки</string>
+    <string name="applock_face">&#160;или Ваше лицо для разблокировки</string>
+    <string name="applock_fingerprint">&#160;или ваш отпечаток пальца, чтобы разблокировать</string>
+    <string name="applock_credential">&#160;для разблокировки</string>
+    <string name="applock_unlock">Разблокировать</string>
 
 </resources>
