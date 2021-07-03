@@ -3682,6 +3682,12 @@ public final class Settings {
         public static final int END_BUTTON_BEHAVIOR_HOME = 0x1;
 
         /**
+         * Screen off fod
+         * @hide
+         */
+        public static final String FOD_GESTURE = "fod_gesture";
+
+        /**
          * END_BUTTON_BEHAVIOR value for "go to sleep".
          * @hide
          */
