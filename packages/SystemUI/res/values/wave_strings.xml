@@ -46,9 +46,6 @@
     <!-- Title of statusbar tuner -->
     <string name="status_bar_icons">Status bar icons</string>
 
-    <!-- Scrolling Screenshot string -->
-    <string name="scrollss">Scroll</string>
-
     <!-- Data usage info -->
     <string name="usage_data">used</string>
     <string name="usage_data_today">used today</string>

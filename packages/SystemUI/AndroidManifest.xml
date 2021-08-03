@@ -271,8 +271,6 @@
     <!-- Permission to make accessibility service access Bubbles -->
     <uses-permission android:name="android.permission.ADD_TRUSTED_DISPLAY" />
 
-    <!-- Asus Long screenshot -->
-    <uses-permission android:name="com.asus.stitchimage.permission.EXPORTED_FOR_ASUS_APPS"/>
 
     <!-- Reboot tile -->
     <uses-permission android:name="android.permission.REBOOT" />
@@ -469,10 +467,6 @@
 
         <!-- Callback for deleting screenshot notification -->
         <receiver android:name=".screenshot.DeleteScreenshotReceiver"
-            android:exported="false" />
-
-        <!-- Callback for scrolling screenshot notification -->
-        <receiver android:name=".screenshot.ScrollScreenshotReceiver"
             android:exported="false" />
 
         <!-- Callback for invoking a smart action from the screenshot notification. -->
