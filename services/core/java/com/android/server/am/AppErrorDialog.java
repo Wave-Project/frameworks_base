@@ -39,7 +39,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.internal.util.KatBinUtils;
+import com.android.internal.util.MemochoUtils;
 
 final class AppErrorDialog extends BaseErrorDialog implements View.OnClickListener {
 
@@ -201,7 +201,7 @@ final class AppErrorDialog extends BaseErrorDialog implements View.OnClickListen
                 mHandler.obtainMessage(FORCE_QUIT_AND_REPORT).sendToTarget();
                 break;
             case com.android.internal.R.id.aerr_copy:
-                postToKatBinAndCopyURL();
+                postToMemochoAndCopyURL();
                 mHandler.obtainMessage(FORCE_QUIT).sendToTarget();
                 break;
             case com.android.internal.R.id.aerr_close:
@@ -218,9 +218,9 @@ final class AppErrorDialog extends BaseErrorDialog implements View.OnClickListen
         }
     }
 
-    private void postToKatBinAndCopyURL() {
-        // Post to KatBin
-        KatBinUtils.upload(mPaste, new KatBinUtils.UploadResultCallback() {
+    private void postToMemochoAndCopyURL() {
+        // Post to Memochō
+        MemochoUtils.upload(mPaste, new MemochoUtils.UploadResultCallback() {
             @Override
             public void onSuccess(String url) {
                 // Copy to clipboard
