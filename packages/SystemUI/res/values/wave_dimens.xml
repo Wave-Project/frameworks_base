@@ -35,7 +35,7 @@
     <dimen name="op_qs_footer_action_button_size">48dp</dimen>
 
     <!-- Width of the battery icon in the status bar when set to circle style. -->
-    <dimen name="status_bar_battery_icon_circle_width">13.0dp</dimen>
+    <dimen name="status_bar_battery_icon_circle_width">13.25dp</dimen>
 
     <!-- Screen recorder stop dot -->
    <dimen name="screenrecord_dot_size">48dp</dimen>
