@@ -79,6 +79,7 @@
         <font weight="800" style="normal" fallbackFor="sans-serif">Roboto-Bold.ttf</font>
         <font weight="900" style="normal" fallbackFor="sans-serif">Roboto-Black.ttf</font>
     </family>
+    <alias name="sans-serif-origin-medium" to="sans-serif-origin" weight="600" />
 
     <family name="sans-serif-origin-condensed">
         <font weight="300" style="normal" fallbackFor="sans-serif-condensed">RobotoCondensed-Light.ttf</font>
