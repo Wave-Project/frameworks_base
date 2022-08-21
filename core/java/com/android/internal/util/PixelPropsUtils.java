@@ -43,7 +43,8 @@ public class PixelPropsUtils {
          "com.google.android.apps.photos"
     };
     private static final String[] packagesToChangeP6 = {
-         "com.google.android.gms"
+         "com.google.android.gms",
+         "com.google.android.apps.wallpaper"
     };
     private static final String[] packagesToKeep = {
         "com.google.android.GoogleCamera",
